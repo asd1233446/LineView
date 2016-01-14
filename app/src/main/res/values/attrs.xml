@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LineView">
+        <attr name="circle_color" format="color|reference"/>
+        <attr name="line_color" format="color|reference"/>
+        <attr name="number_color" format="color|reference"/>
+        <attr name="text_color" format="color|reference"/>
+        <attr name="circle_stroke" format="dimension|reference"/>
+        <attr name="line_stroke" format="dimension|reference"/>
+        <attr name="number_textSize" format="dimension|reference"/>
+        <attr name="text_textSize" format="dimension|reference"/>
+        <attr name="text_space" format="dimension|reference"/>
+        <attr name="text_marginTop" format="dimension|reference"/>
+        <attr name="number_marginTop" format="dimension|reference"/>
+        <attr name="circle_marginTop" format="dimension|reference"/>
+        <attr name="circle_radius" format="dimension|reference"/>
+        <attr name="line_length" format="dimension|reference"/>
+        <attr name="circle_select_color" format="color|reference"/>
+        <attr name="number_select_color" format="color|reference"/>
+        <attr name="text_select_color" format="color|reference"/>
+    </declare-styleable>
+        
+
+</resources>

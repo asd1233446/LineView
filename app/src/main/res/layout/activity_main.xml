@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:lineview="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/holo_blue_light"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            >
+
+            <com.lineview.view.LineView
+                android:id="@+id/lineview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                lineview:circle_color="@android:color/white"
+                lineview:circle_marginTop="50dp"
+                lineview:circle_radius="4dp"
+                lineview:circle_select_color="@android:color/holo_orange_dark"
+                lineview:circle_stroke="2dp"
+                lineview:line_color="@android:color/white"
+                lineview:line_length="70dp"
+                lineview:line_stroke="2dp"
+                lineview:number_color="@android:color/white"
+                lineview:number_select_color="@android:color/holo_orange_dark"
+                lineview:number_textSize="18sp"
+                lineview:text_color="@android:color/white"
+                lineview:text_select_color="@android:color/holo_orange_dark"
+                lineview:text_space="10dp"
+                lineview:text_textSize="18sp"/>
+        </HorizontalScrollView>
+    </ScrollView>
+
+
+</LinearLayout>
